@@ -23,8 +23,8 @@ Dose.destroy_all
 #    Cocktail.create(name: "Mojito")
 # end
 
-# seed_ingredients
+# seed_cocktails
 # seed_doses
-seed_cocktails
+seed_ingredients
 
 
