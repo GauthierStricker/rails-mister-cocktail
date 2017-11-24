@@ -3,15 +3,26 @@
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
-  background-image: asset-url('https://www.google.fr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjw39mUkNXXAhWMaxQKHbxXBR0QjRwIBw&url=https%3A%2F%2Fpixabay.com%2Ffr%2Fphotos%2Fcocktail%2F&psig=AOvVaw1Gg1jJ7Ww66NJVg_Bp89VE&ust=1511541262446165');
   color: white;
   position: relative;
+  margin:20px;
+  box-shadow: 0 5px 2px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  border-radius:5px;
+  font-family: 'Pacifico', cursive;
+    a {
+      color:white;
+      font-size:20px;
+    }
 }
-.card-user {
+.card-title {
   position: absolute;
-  right: 10px;
-  top: 10px;
-  width: 40px;
+  top:80px;
+  left: 0px;
+  right: 0px;
+  width: 120px;
+  justify-content:center;
+  margin-left:auto;
+  margin-right:auto;
   border-radius: 50%;
 }
 .card-category {
